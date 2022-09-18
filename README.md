@@ -108,7 +108,6 @@ Output Example - Filter Classes
       'body': {'inferences': [1.0, 0.0]}
     }
 
-Step 4: Testing and evaluation
 
 ###  Step 3.2: Step Function Workflow
 
