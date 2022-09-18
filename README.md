@@ -116,11 +116,11 @@ Step functions are orchestators.  They could be used for complex workflows and t
 ![Step Functions](doc/step_func/step_function_workflow_editor.PNG "width=50%")
 
 
-#### Step 4 - Testing and Evaluation.
+### Step 4 - Testing and Evaluation.
 
 The final part of the project is the invocation of the step function using test data of the model.  It is implemented at the end of the notebook.
 
-#### Step 5 - Visualizations
+### Step 5 - Visualizations
 
 A good workflow gets visualizations!.  We also constructed two visualizations about the frequency of predictions and a correlation graph in seabors about the time and the classifications.
 

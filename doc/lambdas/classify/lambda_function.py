@@ -16,7 +16,7 @@ def lambda_handler(event, context):
 
     # Make a prediction:
     inferences = predictor.predict(image, initial_args={'ContentType':'image/png'})  # inferences = b'[0.3, 0.7]
-    inferences = inferences.decode()[1:-1]              # now '0,3, 0.7'
+    inferences = inferences.decode()[1:-1]              # now '0.3, 0.7'
     classes = inferences.split(',')                     # now ['0.3', '0.7']
     inferences = [float(classes[0]), float(classes[1])] # now [0.3, 0.7]
 
